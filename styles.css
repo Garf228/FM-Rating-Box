@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+
+html{
+    display:flex;
+    flex-direction: column;
+    
+      
+}
+
+body {
+    color:#89909A;
+    background: black;
+    justify-content: center;
+    padding:2rem;
+    text-align: center;
+    align-content: center;
+    font-family: 'Overpass';
+    max-width: 550px;
+    margin: auto;
+}
+
+main{
+    background: #181E26;
+    max-width: 85%;
+    margin:auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    
+   
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color:#7A828C;
+    
+  
+}
+
+li {
+    background:#262E38;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    margin: 0.5em; /* Adjust margin as needed for space between circles */
+    font-size: 1rem; /* This should be adjusted according to your design */
+    padding: 0; /* Remove padding to ensure the text stays centered */
+    list-style: none; /* Remove bullet points from list items */
+}
+
+li:focus{
+    background: red;
+}
+
+.button
+    {
+    background:#FC7614;
+    border-radius: 1rem;
+    padding: 1rem;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+
+    
+    
+    }
+
+img {
+
+    padding:1rem;
+    border-radius: 50%;
+    background:#262E38;
+    
+    
+}
+h1{
+    margin-top: 1rem;
+    color:white;
+    font-size: 2rem;
+
+}
+
+
+h3{
+    color:white;
+    font-size: 1.5rem;
+}
+
+.thankYou{
+    display: none;
+}
+
+
+.attribution { font-size: 11px; text-align: center; margin: 1rem;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.userScore{
+    display:none;
+    color:#FC7614;
+    border-radius: 1rem;
+    background: #252E39;
+    padding: 0.5rem;
+    
+}
+
+/* .star{
+    text-align: left;
+} */
